@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
-import Members from "./components/Members";
+// import Members from "./components/Members";
 import Slick from "./components/Slick";
 import AboutUs from "./components/AboutUs";
 import Popup from "./components/Popup";
@@ -9,14 +9,23 @@ import peopleData from "./components/data"; // Import your data file here
 
 function App() {
   const [isBackPopupOpen, setBackPopupOpen] = useState(false);
-  const [isPopupOpen, setPopupOpen] = useState(false);
+  const [isPopupOpen, setPopupOpen] = useState(true);
+  const [selectedPerson, setSelectedPerson] = useState(null); // New state for selected person
 
   const toggleBackPopup = () => {
     setBackPopupOpen((prevState) => !prevState);
   };
 
-  const togglePopup = () => {
-    setPopupOpen((prevState) => !prevState);
+  const openPopupWithPerson = (person) => {
+    console.log("apple")
+    setBackPopupOpen(true);
+    setSelectedPerson(person); // Set the clicked person as selected
+    setPopupOpen(true); // Open the popup
+  };
+
+  const closePopup = () => {
+    setPopupOpen(false); // Close the popup
+    setSelectedPerson(null); // Reset selected person
   };
 
   return (
@@ -53,14 +62,28 @@ function App() {
       <Slick />
       <AboutUs />
       {/* <Members openBackPopup={toggleBackPopup} /> */}
-      <Popup openPopup={togglePopup} isPopupOpen={isPopupOpen} />
 
       {/* Render each PersonCard by mapping through the peopleData array */}
       <div className="person-card-container">
         {peopleData.map((person) => (
-          <PersonCard key={person._id} person={person} /> // Pass the person data
+          <PersonCard
+            key={person._id}
+            person={person}
+            onClick={() => openPopupWithPerson(person)} // Pass click handler
+          />
         ))}
       </div>
+
+      {/* Render the Popup component and pass the selected person */}
+      <Popup isPopupOpen={isPopupOpen} closePopup={closePopup}>
+        {selectedPerson && (
+          <>
+            <h2>{selectedPerson.name}</h2> {/* Display the person's name */}
+            <p>{selectedPerson.about}</p>{" "}
+            {/* Display the person's about text */}
+          </>
+        )}
+      </Popup>
 
       <footer className="footer">
         <p>
