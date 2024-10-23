@@ -6,10 +6,12 @@ import AboutUs from "./components/AboutUs";
 import Popup from "./components/Popup";
 import PersonCard from "./components/card"; // Ensure this is correctly pointing to the card component
 import peopleData from "./components/data"; // Import your data file here
+import projectData from "./components/projectsData";
+import ProjectCard from "./components/Projects";
 
 function App() {
   const [isBackPopupOpen, setBackPopupOpen] = useState(false);
-  const [isPopupOpen, setPopupOpen] = useState(true);
+  const [isPopupOpen, setPopupOpen] = useState(false);
   const [selectedPerson, setSelectedPerson] = useState(null); // New state for selected person
 
   const toggleBackPopup = () => {
@@ -17,7 +19,7 @@ function App() {
   };
 
   const openPopupWithPerson = (person) => {
-    console.log("apple")
+    console.log("apple");
     setBackPopupOpen(true);
     setSelectedPerson(person); // Set the clicked person as selected
     setPopupOpen(true); // Open the popup
@@ -25,6 +27,7 @@ function App() {
 
   const closePopup = () => {
     setPopupOpen(false); // Close the popup
+    setBackPopupOpen(false);
     setSelectedPerson(null); // Reset selected person
   };
 
@@ -72,6 +75,12 @@ function App() {
             onClick={() => openPopupWithPerson(person)} // Pass click handler
           />
         ))}
+        {projectData.map((project) => (
+          <ProjectCard
+            key={project._id}
+            project={project}
+          />
+        ))}
       </div>
 
       {/* Render the Popup component and pass the selected person */}
@@ -84,7 +93,6 @@ function App() {
           </>
         )}
       </Popup>
-
       <footer className="footer">
         <p>
           National Institute of Oceanography, Israel Oceanographic and

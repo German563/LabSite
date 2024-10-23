@@ -8,7 +8,7 @@ const Popup = ({ isPopupOpen, closePopup, children }) => {
         <button className="popup__close" onClick={closePopup}>
           &times;
         </button>
-        {children} {/* Render the passed content */}
+        {children}
       </div>
     </div>
   );
