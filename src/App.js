@@ -1,107 +1,206 @@
 import React, { useState } from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
-// import Members from "./components/Members";
 import Slick from "./components/Slick";
 import AboutUs from "./components/AboutUs";
 import Popup from "./components/Popup";
-import PersonCard from "./components/card"; // Ensure this is correctly pointing to the card component
-import peopleData from "./components/data"; // Import your data file here
+import PersonCard from "./components/card";
+import peopleData from "./components/data";
 import projectData from "./components/projectsData";
 import ProjectCard from "./components/Projects";
+import Rocky from "./components/Rocky";
+import Subtidal from "./components/Subtidal";
+import Climate from "./components/Climate";
+import Bioinvasions from "./components/Bioinvasions";
+import Reserves from "./components/Reserves";
+import Achiv2 from "./components/images/rocky/Achiv2.webp";
+import Biodiversity from "./components/biodiversity";
 
 function App() {
   const [isBackPopupOpen, setBackPopupOpen] = useState(false);
   const [isPopupOpen, setPopupOpen] = useState(false);
-  const [selectedPerson, setSelectedPerson] = useState(null); // New state for selected person
+  const [selectedPerson, setSelectedPerson] = useState(null);
 
   const toggleBackPopup = () => {
     setBackPopupOpen((prevState) => !prevState);
   };
 
   const openPopupWithPerson = (person) => {
-    console.log("apple");
     setBackPopupOpen(true);
-    setSelectedPerson(person); // Set the clicked person as selected
-    setPopupOpen(true); // Open the popup
+    setSelectedPerson(person);
+    setPopupOpen(true);
   };
 
   const closePopup = () => {
-    setPopupOpen(false); // Close the popup
+    setPopupOpen(false);
     setBackPopupOpen(false);
-    setSelectedPerson(null); // Reset selected person
+    setSelectedPerson(null);
   };
 
   return (
-    <div className="App">
-      <div
-        onClick={toggleBackPopup}
-        className={`page__background ${
-          isBackPopupOpen ? "page__background_opened" : ""
-        }`}
-      ></div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                <header className="overlay1">
+                  <nav className="nav">
+                    <ul className="menu">
+                      <li>
+                        <a href="#">Home</a>
+                      </li>
+                      <li>
+                        <a href="#projects">Projects</a>
+                      </li>
+                      <li>
+                        <a href="#team">Team</a>
+                      </li>
+                    </ul>
+                    <div className="titleWrapper">
+                      <h1>The Rilov Lab</h1>
+                      <h2> Marine community ecology</h2>
+                    </div>
+                  </nav>
 
-      <header className="header">
-        <nav className="nav">
-          <ul className="menu">
-            <li>
-              <a href="#">Home</a>
-            </li>
-            <li>
-              <a href="#">Projects</a>
-            </li>
-            <li>
-              <a href="#">Outreach</a>
-            </li>
-            <li>
-              <a href="#">Team</a>
-            </li>
-            <li>
-              <a href="#">News</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <div className="overlay"></div>
-      <Slick />
-      <AboutUs />
-      {/* <Members openBackPopup={toggleBackPopup} /> */}
+                  <div className="overlay2"> </div>
+                </header>
 
-      {/* Render each PersonCard by mapping through the peopleData array */}
-      <div className="person-card-container">
-        {peopleData.map((person) => (
-          <PersonCard
-            key={person._id}
-            person={person}
-            onClick={() => openPopupWithPerson(person)} // Pass click handler
+                <div
+                  onClick={toggleBackPopup}
+                  className={`page__background ${
+                    isBackPopupOpen ? "page__background_opened" : ""
+                  }`}
+                ></div>
+
+                <Slick />
+                <AboutUs />
+                <div className="person-card-container" id="team">
+                  {peopleData.map((person) => (
+                    <PersonCard
+                      key={person._id}
+                      person={person}
+                      onClick={() => openPopupWithPerson(person)}
+                    />
+                  ))}
+                  {/* {projectData.map((project) => (
+                    <ProjectCard key={project._id} project={project} />
+                  ))} */}
+
+                  <div className="cardProject" id="projects">
+                    {/* <h2>Our Projects</h2> */}
+                    <a href="rocky">
+                      <img
+                        className="projectImage"
+                        src={Achiv2}
+                        alt="Achievement"
+                      />
+                    </a>
+                    <h2>Rocky shore monitoring</h2>
+                  </div>
+                  <div className="cardProject">
+                    <a href="subtidal">
+                      <img
+                        className="projectImage"
+                        src={Achiv2}
+                        alt="Achievement"
+                      />
+                    </a>
+                    <h2>Subtidal reef surveys </h2>
+                  </div>
+                  <div className="cardProject">
+                    <a href="Climate">
+                      <img
+                        className="projectImage"
+                        src={Achiv2}
+                        alt="Achievement"
+                      />
+                    </a>
+                    <h2>
+                      Impacts of Climate changes on species and communities
+                    </h2>
+                  </div>
+                  <div className="cardProject">
+                    <a href="Bioinvasions">
+                      <img
+                        className="projectImage"
+                        src={Achiv2}
+                        alt="Achievement"
+                      />
+                    </a>
+                    <h2>Impacts of Marine Bioinvasions</h2>
+                  </div>
+                  <div className="cardProject">
+                    <a href="Reserves">
+                      <img
+                        className="projectImage"
+                        src={Achiv2}
+                        alt="Achievement"
+                      />
+                    </a>
+                    <h2>Study of Marine Reserves:</h2>
+                  </div>
+                  <div className="cardProject">
+                    <a href="biodiversity">
+                      <img
+                        className="projectImage"
+                        src={Achiv2}
+                        alt="Achievement"
+                      />
+                    </a>
+                    <h2>FutureMARES</h2>
+                  </div>
+                </div>
+
+                {/* Popup */}
+                <Popup isPopupOpen={isPopupOpen} closePopup={closePopup}>
+                  {selectedPerson && (
+                    <>
+                      <h2>{selectedPerson.name}</h2>
+                      <p>{selectedPerson.about}</p>
+                    </>
+                  )}
+                </Popup>
+              </>
+            }
           />
-        ))}
-        {projectData.map((project) => (
-          <ProjectCard
-            key={project._id}
-            project={project}
+          <Route
+            path="/rocky"
+            element={<Rocky />} // Rocky page without header
           />
-        ))}
+          <Route
+            path="/subtidal"
+            element={<Subtidal />} // Rocky page without header
+          />
+          <Route
+            path="/Climate"
+            element={<Climate />} // Rocky page without header
+          />
+          <Route
+            path="/Reserves"
+            element={<Reserves />} // Rocky page without header
+          />
+          <Route
+            path="/Bioinvasions"
+            element={<Bioinvasions />} // Rocky page without header
+          />
+          <Route
+            path="/biodiversity"
+            element={<Biodiversity />} // Rocky page without header
+          />
+        </Routes>
+
+        {/* Common Footer */}
+        <footer className="footer">
+          <p>
+            National Institute of Oceanography, Israel Oceanographic and
+            Limnological Research (IOLR)
+          </p>
+          <p>Haifa, 3109701, Israel. PO Box 9753.</p>
+        </footer>
       </div>
-
-      {/* Render the Popup component and pass the selected person */}
-      <Popup isPopupOpen={isPopupOpen} closePopup={closePopup}>
-        {selectedPerson && (
-          <>
-            <h2>{selectedPerson.name}</h2> {/* Display the person's name */}
-            <p>{selectedPerson.about}</p>{" "}
-            {/* Display the person's about text */}
-          </>
-        )}
-      </Popup>
-      <footer className="footer">
-        <p>
-          National Institute of Oceanography, Israel Oceanographic and
-          Limnological Research (IOLR)
-        </p>
-
-        <p> Haifa, 3109701, Israel. PO Box 9753.</p>
-      </footer>
-    </div>
+    </Router>
   );
 }
 

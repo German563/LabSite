@@ -22,7 +22,7 @@ export default function Slick() {
     infinite: true,
   };
   const sliderStyle = {
-    margin: "10px 0 0 0",
+    margin: "-210px 0 0 0",
     height: "100vh", // Makes the slider take the full viewport height
   };
 
@@ -34,7 +34,7 @@ export default function Slick() {
   };
 
   return (
-    <div style={sliderStyle}>
+    <div className="slickSection" style={sliderStyle}>
       <Slider {...settings}>
         <div>
           <img src={turtelsImage} style={imageStyle} alt="Slide 1" />
