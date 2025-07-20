@@ -18,7 +18,7 @@ const peopleData = [
     name: "Prof. Gil Rilov",
     title: "Senior Researcher, Head of Lab",
     about:
-      "My research explores the patterns, dynamics, and processes that shape marine communities, especially rocky shores and subtidal reefs. I am interested in the structure of communities and what affects their diversity, including larval recruitment, species interactions (predator-prey, competition, facilitation), overfishing, bioinvasions, climate change. I also study how marine communities function and what ecosystem services they provide. I am investigating nature-based solutions designed to protect these fascinating communities, their functions, and services (including Blue Carbon) through, for example, marine protected areas. So far, I have been fortunate to conduct research on the shores of Israel (Mediterranean and Red Sea), the USA, New Zealand, Brazil, Chile, South Africa, Crete, Cyprus, and Italy (Ischia). I have worked on rocky shores, subtidal reefs, coral reefs, and seagrass. I am also a Professor in the Marine Biology Department at the Leon H. Charney School of Marine Sciences at the University of Haifa. I teach a marine ecology course there.",
+      "Gil Rilov is a Senior Researcher at Israel Oceanographic & Limnological Research (IOLR), and Associate Professor in the University of Haifa. Gil is a marine community ecologist and conservation biologist working mostly on coastal benthic ecosystems. He studies how coastal marine biodiversity, mostly that of rocky reefs, is and will be affected by climate change, bioinvasions and overfishing, using both monitoring and field and lab experiments. He also investigates how global and local stressors lead to the alteration of ecosystem functions and services, and studies the effectiveness of nature-based solutions.",
     avatar: gilAvatar,
   },
   {
@@ -106,7 +106,7 @@ const peopleData = [
     name: "Natalia Vasekha",
     title: "Ph.D. candidate",
     about:
-      "I have always had a great wish to explore the diverse life of the oceans. I am particularly interested in studying species interactions and food webs, which are crucial to understanding the overall picture of marine ecosystems. My research will focus on the effects of the tropicalization of Levant reefs on food web structure, functional diversity and ecosystem functions in Israel and Cyprus. The aim is to compare communities structure and assess the cumulative impacts of environmental changes on reef systems, including regional invasions. Co-supervisor: Prof. Smadar Ben Tabou de Leon, Marine Biology Department, Haifa University B.Sc. – Department of Biogeography, Lomonosov Moscow State University M.Sc. – Department of Biogeography, Lomonosov Moscow State University",
+      "Natalia Vasekha is a PhD student in Gil Rilov’s marine community ecology lab. Her research focuses on comparing structural and functional changes in shallow macrophyte reef communities at two Eastern Mediterranean change hotspots: Israel and Cyprus. Using in-situ metabolic incubations, trait-based analysis, and monitoring of selected native and introduced species, she investigates the combined effects of warming and species invasions, and examines the roles and interactions of key reef species.",
     avatar: natashahAvatar,
   },
   {

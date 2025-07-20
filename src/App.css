@@ -87,9 +87,8 @@ ul.menu > li {
   display: flex;
   flex-direction: column;
 }
-.MemberImage {
-  width: 210px;
-}
+
+
 .page__background {
   top: 0;
   right: 0;
@@ -131,10 +130,12 @@ visibility: visible;
   flex-wrap: wrap;
   margin: 0 auto;
   justify-content: center;
+  
 }
 .person-card-container img {
-  /* Style for child <img> elements */
-  min-width: 350px;
+  max-width: 250px;
+  object-fit: fit;     
+  border-radius: 12px;
 }
 .person-card-container p {
   /* Style for child <img> elements */
