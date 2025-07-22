@@ -1,5 +1,9 @@
 .header {
 }
+.h2 {
+  display: flex;
+justify-content: center;
+}
 .main {
   background-color: red;
 }
@@ -208,4 +212,19 @@ margin: 0 auto;
 color:white;
 align-items: center;
 /* margin-top: -400px; */
+}
+.gilImage {
+
+padding-left: 20px;
+}
+.aboutUsWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content:center
+
+}
+.aboutUsTextWrapper {
+    display: flex;
+      flex-direction: column;
+  width: 40%;
 }

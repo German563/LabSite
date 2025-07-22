@@ -13,14 +13,14 @@ import gershAvatar from "./images/people/gershon.avif";
 import natashahAvatar from "./images/people/natasha.avif";
 import batiaAvatar from "./images/people/batia.avif";
 const peopleData = [
-  {
-    _id: "1",
-    name: "Prof. Gil Rilov",
-    title: "Senior Researcher, Head of Lab",
-    about:
-      "Gil Rilov is a Senior Researcher at Israel Oceanographic & Limnological Research (IOLR), and Associate Professor in the University of Haifa. Gil is a marine community ecologist and conservation biologist working mostly on coastal benthic ecosystems. He studies how coastal marine biodiversity, mostly that of rocky reefs, is and will be affected by climate change, bioinvasions and overfishing, using both monitoring and field and lab experiments. He also investigates how global and local stressors lead to the alteration of ecosystem functions and services, and studies the effectiveness of nature-based solutions.",
-    avatar: gilAvatar,
-  },
+  // {
+  //   _id: "1",
+  //   name: "Prof. Gil Rilov",
+  //   title: "Senior Researcher, Head of Lab",
+  //   about:
+  //     "Gil Rilov is a Senior Researcher at Israel Oceanographic & Limnological Research (IOLR), and Associate Professor in the University of Haifa. Gil is a marine community ecologist and conservation biologist working mostly on coastal benthic ecosystems. He studies how coastal marine biodiversity, mostly that of rocky reefs, is and will be affected by climate change, bioinvasions and overfishing, using both monitoring and field and lab experiments. He also investigates how global and local stressors lead to the alteration of ecosystem functions and services, and studies the effectiveness of nature-based solutions.",
+  //   avatar: gilAvatar,
+  // },
   {
     _id: "2",
     name: "Guy Raanan",

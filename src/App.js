@@ -15,6 +15,10 @@ import Bioinvasions from "./components/Bioinvasions";
 import Reserves from "./components/Reserves";
 import Achiv2 from "./components/images/rocky/Achiv2.webp";
 import Biodiversity from "./components/biodiversity";
+import logoYoutube from "./components/images/logos/icons8-youtube.svg";
+import logoTwitter from "./components/images/logos/icons8-twitter.svg";
+import logoInstagram from "./components/images/logos/icons8-instagram.svg";
+import logoFacebook from "./components/images/logos/icons8-facebook.svg";
 
 function App() {
   const [isBackPopupOpen, setBackPopupOpen] = useState(false);
@@ -198,6 +202,37 @@ function App() {
             Limnological Research (IOLR)
           </p>
           <p>Haifa, 3109701, Israel. PO Box 9753.</p>
+          <div className="logoWrapper">
+            <a
+              href="https://www.youtube.com/channel/UC9IksEC8j8wUxQuFY0t6PWw"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              <img src={logoYoutube} alt="youtube" />
+            </a>
+            <a
+              href="https://x.com/RilovL"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={logoTwitter} alt="Twitter" />
+            </a>
+            <a
+              href="https://www.instagram.com/rilov_lab_IOLR/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={logoInstagram} alt="Instagram" />
+            </a>
+            <a
+              href="https://www.facebook.com/profile.php?id=100070964067130"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={logoFacebook} alt="Facebook" />
+            </a>{" "}
+          </div>
         </footer>
       </div>
     </Router>
