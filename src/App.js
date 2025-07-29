@@ -15,6 +15,7 @@ import Bioinvasions from "./components/Bioinvasions";
 import Reserves from "./components/Reserves";
 import Achiv2 from "./components/images/rocky/Achiv2.webp";
 import Biodiversity from "./components/biodiversity";
+import Publications from "./components/Publications";
 import logoYoutube from "./components/images/logos/icons8-youtube.svg";
 import logoTwitter from "./components/images/logos/icons8-twitter.svg";
 import logoInstagram from "./components/images/logos/icons8-instagram.svg";
@@ -194,7 +195,8 @@ function App() {
             element={<Biodiversity />} // Rocky page without header
           />
         </Routes>
-
+        <h2 className="h2">Publications</h2>
+        <Publications></Publications>
         {/* Common Footer */}
         <footer className="footer">
           <p>

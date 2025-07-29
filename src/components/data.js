@@ -90,7 +90,7 @@ const peopleData = [
     name: "Herman Goldberg",
     title: "M.Sc. candidate",
     about:
-      "The current climate change, the resulting rapid warming of seawater and increase in extreme weather events influence dramatically the composition and functioning of species of intertidal, and subtidal rocky shore communities. Within the context of a large European project, FutureMARES, I will study the vulnerability, resilience and adaption of these ecosystems to warming at local and regional scales, focusing on sea urchins, intertidal gastropods, and algae using ecological and molecular methods. This knowledge would serve as input for advanced ecological models assessing the current and future status of eastern Mediterranean costal ecosystems compared to those in the western Mediterranean and the European Atlantic. The results will be use to inform management and to develop nature-based solutions within the FutureMARES context.Co-supervisor: Prof. Ilana Berman-Frank, Marine Biology, Haifa University B.Sc. – Life Sciences, Tel Aviv University  M.Sc. - Life Sciences, Zoology, Tel Aviv University",
+      "My research will investigate the impacts of climate change and local stressors on Mediterranean reef species and their community resilience. B.Sc- Environmental science, IIUEPS",
     avatar: hermAvatar,
   },
   {
