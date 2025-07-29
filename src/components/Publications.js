@@ -717,6 +717,340 @@ function Publications() {
         journal: "Limnology and Oceanography",
         doi: "https://doi.org/10.1002/lno.10279",
       },
+      {
+        authors: "Yeruham, E., Rilov, G., Shpigel, M. & Abelson, A.",
+        year: 2015,
+        title:
+          "Collapse of the echinoid Paracentrotus lividus populations in the Eastern Mediterranean - result of climate change?",
+        journal: "Scientific Reports",
+        doi: "https://doi.org/10.1038/srep13479",
+      },
+      {
+        authors:
+          "Levy Y, Frid O, Weinberger A, Sade R, Adam Y, Kandanyan U, Berkun V, Perry N, Edelist D, Goren M, Rothman, S, Stern N, Tchernov D, Rilov G",
+        year: 2015,
+        title: "A small fishery with high impact on Sea Turtle Populations",
+        journal: "Zoology of the Middle East",
+        note: "61: 300-317",
+      },
+      {
+        authors:
+          "Wahl, M., Buchholz, B., Winde, V., Golomb, D. Guy-Haim, T., Müller, J., Rilov, G., Scotti, M., Böttcher, M.E.",
+        year: 2015,
+        title:
+          "A mesocosm concept for the simulation of near-natural shallow underwater climates: The Kiel Outdoor Benthocosms (KOB)",
+        journal: "Limnology and Oceanography, Methods",
+        doi: "https://doi.org/10.1002/lom3.10055",
+      },
+      {
+        authors:
+          "Lyons DA, Arvanitidis C, Blight A, Chatzinikolaou E, Guy-Haim T, Kotta J, Orav-Kotta H, Queirós AM, Rilov G, Somerfield PJ, Crowe T",
+        year: 2015,
+        title:
+          "There are no whole truths in meta-analyses: all their truths are half truths",
+        journal: "Global Change Biology",
+        note: "20: 2712-2724",
+      },
+      {
+        authors:
+          "Stokes, K., Broderick, A., Canbolat, A., Candan, O., Fuller, W., Glen, F., Levy, Y., Rees, A., Rilov, G. & Snape, R.",
+        year: 2015,
+        title:
+          "Migratory corridors and foraging hotspots: critical habitats identified for Mediterranean green turtles",
+        journal: "Diversity and Distributions",
+        doi: "https://doi.org/10.1111/ddi.12317",
+      },
+      {
+        authors: "Shabtay A, Rilov G, Benayahu Y",
+        year: 2015,
+        title:
+          "The Indo-Pacific oyster Spondylus spinosus Schreibers, 1793 in the Eastern Mediterranean Sea: Reproductive features",
+        journal: "Molluscan Research",
+        doi: "https://doi.org/10.1080/13235818.2015.1007534",
+      },
+      {
+        authors: "Guy-Haim T, Rilov G, Achituv Y",
+        year: 2015,
+        title:
+          "Different settlement strategies explain intertidal zonation of barnacles in the Eastern Mediterranean",
+        journal: "Journal of Experimental Marine Biology and Ecology",
+        note: "463: 125-134",
+      },
+      {
+        authors:
+          "Levin N, Coll M, Fraschetti S, Gal G, Giakoumi S, Göke C, Heymans JJ, Katsanevakis S, Mazor T, Öztürk B, Rilov R, Gajewski J, Steenbeek J, Kark S",
+        year: 2014,
+        title:
+          "Review of biodiversity data requirements for systematic conservation planning in the Mediterranean Sea",
+        journal: "Marine Ecology Progress Series",
+        note: "508: 261-281",
+      },
+      {
+        authors: "Rilov G",
+        year: 2014,
+        title: "Ecological changes in the Israeli Mediterranean coast",
+        journal: "Ecology and the Environment",
+        note: "5(1): 44-51 (Hebrew)",
+      },
+      {
+        authors:
+          "Edelist D, Scheinin A, Sonin O, Shapiro J, Salameh P, Rilov G, Benayahu Y, Schulz D, Zeller D",
+        year: 2013,
+        title:
+          "Israel: Reconstructed estimates of total fisheries removals in the Mediterranean, 1950–2010",
+        journal: "Acta Adriatica",
+        note: "54(2): 253-246",
+      },
+      {
+        authors: "Edelist D, Rilov G",
+        year: 2014,
+        title: "Trends in the Israeli Mediterranean fishers",
+        journal: "Ecology and the Environment",
+        note: "5(1): 90-97 (Hebrew)",
+      },
+      {
+        authors: "Edelist D, Rilov G, Golani D, Carlton JT, Spanier E",
+        year: 2013,
+        title:
+          "Restructuring the Sea: profound shifts in the world's most invaded marine ecosystem",
+        journal: "Diversity and Distributions",
+        note: "19: 69-77",
+      },
+      {
+        authors: "Shabtay A, Tikochinski Y, Benayahu Y, Rilov G",
+        year: 2013,
+        title:
+          "Preliminary data on the population genetic structure of a highly successful invading oyster suggests its establishment dynamics in the Levant",
+        journal: "Marine Biology Research",
+        note: "10(4): 407-415",
+      },
+      {
+        authors: "Edelist D, Golani D, Rilov G, Spanier E",
+        year: 2012,
+        title:
+          "The invasive venomous striped eel catfish Plotosus lineatus in the Levant: possible mechanisms facilitating its rapid invasional success",
+        journal: "Marine Biology",
+        note: "159(2): 283-290",
+      },
+      {
+        authors: "Mienis HK, Rittner O, Rilov G, Almog O",
+        year: 2012,
+        title:
+          "Some additional records of two hardly known Lessepsian migrants among the molluscs from the Mediterranean coast of Israel",
+        journal: "Triton",
+        note: "26: 1-3",
+      },
+      {
+        authors:
+          "Bulleri F, Mant R, Benedetti-Cecchi L, Chatzinikolaou E, Crowe T, Kotta J, Lyons L, Rilov R, Maggi E",
+        year: 2012,
+        title:
+          "The effects of exotic seaweeds on native benthic assemblages: variability between trophic levels and influence of background environmental and biological conditions",
+        journal: "Environmental Evidence",
+        note: "1:8",
+      },
+      {
+        authors:
+          "Rilov G, Mant R, Lyons DA, Bulleri F, Benedetti-Cecchi L, Kotta J, Queiros A, Chatzinikolaou E, Crowe T, Guy-Haim T",
+        year: 2012,
+        title:
+          "How strong is the effect of invasive ecosystem engineers on the distribution patterns of local species, the local and regional biodiversity and ecosystem functions?",
+        journal: "Environmental Evidence",
+        note: "1:10",
+      },
+      {
+        authors: "Lyons DA, Mant R, Bulleri F, Kotta J, Rilov G, Crowe T",
+        year: 2012,
+        title:
+          "What are the effects of macroalgal blooms on the structure and functioning of marine ecosystems? A Systematic Review Protocol",
+        journal: "Environmental Evidence",
+        note: "1:7",
+      },
+      {
+        authors:
+          "Menge BA, Hacker SD, Lubchenco J, Craig R, Rilov G, Nobel M, Richmond E",
+        year: 2011,
+        title:
+          "Potential impact of climate-related changes on a rocky intertidal ecosystem is buffered by differential responses to recruitment and species interactions",
+        journal: "Ecological Monographs",
+        note: "81(3): 493–509",
+      },
+      {
+        authors: "Edelist D, Sonin O, Golani D, Rilov G, Spanier E",
+        year: 2011,
+        title:
+          "Spatiotemporal patterns of catch and discards of the Israeli Mediterranean Trawl fishery in the early 1990s: ecological and conservation perspectives",
+        journal: "Scientia Marina",
+        note: "75(4): 641-652",
+      },
+      {
+        authors: "Simberloff et al.",
+        year: 2011,
+        title: "Non-natives: 141 scientists object",
+        journal: "Nature",
+        note: "475(7354): 36",
+      },
+      {
+        authors: "Rilov G, Schiel RD",
+        year: 2011,
+        title:
+          "Community regulation: the relative importance of recruitment and predation intensity in the context of seascape",
+        journal: "PLoS ONE",
+        note: "6(8): e23958",
+      },
+      {
+        authors: "Rilov G, Trebes H",
+        year: 2010,
+        title:
+          "The impacts of global climate change on marine ecosystems: global state and consequences to the marine environment",
+        journal: "Ecology and the Environment",
+        note: "1: 57-65 (Hebrew)",
+      },
+      {
+        authors: "Lopez S, Ferreira CE, Coutinho R, Rilov G",
+        year: 2010,
+        title:
+          "Predator-prey interactions in a bioinvasion scenario: differential predation by native predators on two exotic rocky intertidal bivalves",
+        journal: "Marine Ecology Progress Series",
+        note: "403: 101–112",
+      },
+      {
+        authors:
+          "Menge BA, Chan F, Dudas S, Eerkes-Medrano D, Grorud-Colvert K, Heiman K, Hessing-Lewis M, Iles A, Milston-Clements R, Noble M, Page-Albins K, Richmond E, Rilov G, Rose J, Tyburczy J, Vinueza L, Zarnetske P",
+        year: 2009,
+        title:
+          "Terrestrial ecologists ignore aquatic literature: asymmetry in citation breadth in ecological publications and implications for generality and progress in ecology?",
+        journal: "Journal of Experimental Marine Biology and Ecology",
+        note: "377: 93-100",
+      },
+      {
+        authors:
+          "Menge BA, Chan F, Dudas S, Eerkes-Medrano D, Grorud-Colvert K, Heiman K, Hessing-Lewis M, Iles A, Milston-Clements R, Noble M, Page-Albins K, Richmond E, Rilov G, Rose J, Tyburczy J, Vinueza L, Zarnetske P",
+        year: 2009,
+        title: "Do terrestrial ecologists ignore aquatic literature?",
+        journal: "Frontiers in Ecology and the Environment",
+        note: "7(4): 182-183",
+      },
+      {
+        authors: "Dudas SE, Rilov G, Tyburczy J, Menge BA",
+        year: 2009,
+        title:
+          "Linking larval abundance with onshore supply and settlement using instantaneous and integrated methods",
+        journal: "Marine Ecology Progress Series",
+        note: "387: 81–95",
+      },
+      {
+        authors:
+          "Rilov G, Dudas S, Menge BA, Grantham B, Lubchenco J, Schiel RD",
+        year: 2008,
+        title:
+          "The surf zone: a semi-permeable barrier to onshore recruitment of invertebrate larvae?",
+        journal: "Journal of Experimental Marine Biology and Ecology",
+        note: "361: 59-74",
+      },
+      {
+        authors: "Figueira WF, Lyman SJ, Crowder LB, Rilov G",
+        year: 2008,
+        title:
+          "Small-scale demographic variability of the biocolor damselfish, Stegastes partitus, in the Florida Keys USA",
+        journal: "Environmental Biology of Fishes",
+        note: "81(3): 297-311",
+      },
+      {
+        authors: "Rilov G, Figueira WF, Lyman SJ, Crowder L",
+        year: 2007,
+        title:
+          "Complex habitats may not always benefit prey: Linking visual field, reef fish behavior and distribution",
+        journal: "Marine Ecology Progress Series",
+        note: "329: 225–238",
+      },
+      {
+        authors: "Rilov G, Schiel RD",
+        year: 2006,
+        title: "Seascape-dependent subtidal-intertidal trophic linkages",
+        journal: "Ecology",
+        note: "87(3): 731–744",
+      },
+      {
+        authors: "Rilov G, Schiel RD",
+        year: 2006,
+        title:
+          "Trophic linkages across seascapes: subtidal predators limit effective mussel recruitment in rocky intertidal communities",
+        journal: "Marine Ecology Progress Series",
+        note: "327: 83-93",
+      },
+      {
+        authors: "Rilov G, Gasith A, Benayahu Y",
+        year: 2005,
+        title:
+          "Effect of disturbance on foraging: whelk activity on wave-exposed rocky shores with minimal tidal range",
+        journal: "Marine Biology",
+        note: "147: 421–428",
+      },
+      {
+        authors: "Rilov G, Benayahu Y, Gasith A",
+        year: 2004,
+        title:
+          "Prolonged lag in population outbreak of an invasive mussel: a shifting-habitat model",
+        journal: "Biological Invasions",
+        note: "6(3): 347-364",
+      },
+      {
+        authors: "Rilov G, Benayahu Y, Gasith A",
+        year: 2004,
+        title:
+          "Life on the edge: do biomechanical and behavioral adaptations to wave-exposure correlate with habitat partitioning in predatory whelks?",
+        journal: "Marine Ecology Progress Series",
+        note: "282: 193-204",
+      },
+      {
+        authors: "Rilov G, Benayahu Y, Gasith A",
+        year: 2002,
+        title:
+          "Effect of an exotic prey on the feeding pattern of a predatory snail",
+        journal: "Marine Environmental Research",
+        note: "54: 85-98",
+      },
+      {
+        authors: "Rilov G, Benayahu Y",
+        year: 2002,
+        title:
+          "Rehabilitation of coral reef fish communities: The importance of artificial-reef relief to recruitment rates",
+        journal: "Bulletin of Marine Science",
+        note: "70(1): 185-197",
+      },
+      {
+        authors: "Rilov G, Benayahu Y, Gasith A",
+        year: 2001,
+        title:
+          "Low abundance and skewed population structure of the whelk Stramonita haemastoma along the Israeli Mediterranean coast",
+        journal: "Marine Ecology Progress Series",
+        note: "218: 189-202",
+      },
+      {
+        authors: "Rilov G, Gasith A, Evans SM, Benayahu Y",
+        year: 2000,
+        title:
+          "Unregulated use of TBT-based anti-fouling paints in Israel (eastern Mediterranean): high contamination and imposex levels in two marine gastropods",
+        journal: "Marine Ecology Progress Series",
+        note: "192: 229-238",
+      },
+      {
+        authors: "Rilov G, Benayahu Y",
+        year: 2000,
+        title:
+          "Fish assemblage on natural vs. vertical artificial reefs in Eilat (Red Sea): the rehabilitation perspective",
+        journal: "Marine Biology",
+        note: "136: 931-942",
+      },
+      {
+        authors: "Rilov G, Benayahu Y",
+        year: 1998,
+        title:
+          "Vertical artificial structures as an alternative habitat for coral reef fishes in disturbed environments",
+        journal: "Marine Environmental Research",
+        note: "45: 431-451",
+      },
     ],
   };
   const sortedYears = Object.keys(publications).sort((a, b) => {

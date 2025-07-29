@@ -6,8 +6,6 @@ import AboutUs from "./components/AboutUs";
 import Popup from "./components/Popup";
 import PersonCard from "./components/card";
 import peopleData from "./components/data";
-import projectData from "./components/projectsData";
-import ProjectCard from "./components/Projects";
 import Rocky from "./components/Rocky";
 import Subtidal from "./components/Subtidal";
 import Climate from "./components/Climate";
@@ -26,16 +24,12 @@ function App() {
   const [isPopupOpen, setPopupOpen] = useState(false);
   const [selectedPerson, setSelectedPerson] = useState(null);
 
-  const toggleBackPopup = () => {
-    setBackPopupOpen((prevState) => !prevState);
-  };
-
+  const toggleBackPopup = () => setBackPopupOpen((prev) => !prev);
   const openPopupWithPerson = (person) => {
     setBackPopupOpen(true);
     setSelectedPerson(person);
     setPopupOpen(true);
   };
-
   const closePopup = () => {
     setPopupOpen(false);
     setBackPopupOpen(false);
@@ -62,14 +56,16 @@ function App() {
                       <li>
                         <a href="#team">Team</a>
                       </li>
+                      <li>
+                        <a href="#Publications">Publications</a>
+                      </li>
                     </ul>
                     <div className="titleWrapper">
                       <h1>The Rilov Lab</h1>
-                      <h2> Marine community ecology</h2>
+                      <h2>Marine community ecology</h2>
                     </div>
                   </nav>
-
-                  <div className="overlay2"> </div>
+                  <div className="overlay2" />
                 </header>
 
                 <div
@@ -81,6 +77,7 @@ function App() {
 
                 <Slick />
                 <AboutUs />
+
                 <div className="person-card-container" id="team">
                   {peopleData.map((person) => (
                     <PersonCard
@@ -89,12 +86,9 @@ function App() {
                       onClick={() => openPopupWithPerson(person)}
                     />
                   ))}
-                  {/* {projectData.map((project) => (
-                    <ProjectCard key={project._id} project={project} />
-                  ))} */}
 
+                  {/* Projects Section */}
                   <div className="cardProject" id="projects">
-                    {/* <h2>Our Projects</h2> */}
                     <a href="rocky">
                       <img
                         className="projectImage"
@@ -112,7 +106,7 @@ function App() {
                         alt="Achievement"
                       />
                     </a>
-                    <h2>Subtidal reef surveys </h2>
+                    <h2>Subtidal reef surveys</h2>
                   </div>
                   <div className="cardProject">
                     <a href="Climate">
@@ -122,9 +116,7 @@ function App() {
                         alt="Achievement"
                       />
                     </a>
-                    <h2>
-                      Impacts of Climate changes on species and communities
-                    </h2>
+                    <h2>Impacts of Climate changes</h2>
                   </div>
                   <div className="cardProject">
                     <a href="Bioinvasions">
@@ -134,7 +126,7 @@ function App() {
                         alt="Achievement"
                       />
                     </a>
-                    <h2>Impacts of Marine Bioinvasions</h2>
+                    <h2>Marine Bioinvasions</h2>
                   </div>
                   <div className="cardProject">
                     <a href="Reserves">
@@ -144,7 +136,7 @@ function App() {
                         alt="Achievement"
                       />
                     </a>
-                    <h2>Study of Marine Reserves:</h2>
+                    <h2>Marine Reserves</h2>
                   </div>
                   <div className="cardProject">
                     <a href="biodiversity">
@@ -167,37 +159,23 @@ function App() {
                     </>
                   )}
                 </Popup>
+
+                <h2 className="h2" id="Publications">
+                  Publications
+                </h2>
+                <Publications />
               </>
             }
           />
-          <Route
-            path="/rocky"
-            element={<Rocky />} // Rocky page without header
-          />
-          <Route
-            path="/subtidal"
-            element={<Subtidal />} // Rocky page without header
-          />
-          <Route
-            path="/Climate"
-            element={<Climate />} // Rocky page without header
-          />
-          <Route
-            path="/Reserves"
-            element={<Reserves />} // Rocky page without header
-          />
-          <Route
-            path="/Bioinvasions"
-            element={<Bioinvasions />} // Rocky page without header
-          />
-          <Route
-            path="/biodiversity"
-            element={<Biodiversity />} // Rocky page without header
-          />
+          <Route path="/rocky" element={<Rocky />} />
+          <Route path="/subtidal" element={<Subtidal />} />
+          <Route path="/Climate" element={<Climate />} />
+          <Route path="/Reserves" element={<Reserves />} />
+          <Route path="/Bioinvasions" element={<Bioinvasions />} />
+          <Route path="/biodiversity" element={<Biodiversity />} />
         </Routes>
-        <h2 className="h2">Publications</h2>
-        <Publications></Publications>
-        {/* Common Footer */}
+
+        {/* ✅ Footer (outside Routes, visible on all pages) */}
         <footer className="footer">
           <p>
             National Institute of Oceanography, Israel Oceanographic and
@@ -210,7 +188,6 @@ function App() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              {" "}
               <img src={logoYoutube} alt="youtube" />
             </a>
             <a
@@ -233,7 +210,7 @@ function App() {
               rel="noopener noreferrer"
             >
               <img src={logoFacebook} alt="Facebook" />
-            </a>{" "}
+            </a>
           </div>
         </footer>
       </div>
