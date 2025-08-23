@@ -9,7 +9,7 @@ import peopleData from "./components/data";
 import Rocky from "./components/Rocky";
 import Subtidal from "./components/Subtidal";
 import Climate from "./components/Climate";
-import Bioinvasions from "./components/Bioinvasions";
+import Cambiomed from "./components/Cambiomed";
 import Reserves from "./components/Reserves";
 import Achiv2 from "./components/images/rocky/Achiv2.webp";
 import Biodiversity from "./components/biodiversity";
@@ -18,7 +18,8 @@ import logoYoutube from "./components/images/logos/icons8-youtube.svg";
 import logoTwitter from "./components/images/logos/icons8-twitter.svg";
 import logoInstagram from "./components/images/logos/icons8-instagram.svg";
 import logoFacebook from "./components/images/logos/icons8-facebook.svg";
-
+import CamBio from "./components/images/Cambiomed/CAMBioMED_logo-200x100.png";
+import MonitoringLogo from "./components/images/rocky/Lab_Logo_High_res.png";
 function App() {
   const [isBackPopupOpen, setBackPopupOpen] = useState(false);
   const [isPopupOpen, setPopupOpen] = useState(false);
@@ -89,24 +90,24 @@ function App() {
 
                   {/* Projects Section */}
                   <div className="cardProject" id="projects">
-                    <a href="rocky">
+                    <a href="Cambiomed">
                       <img
                         className="projectImage"
-                        src={Achiv2}
+                        src={CamBio}
                         alt="Achievement"
                       />
                     </a>
-                    <h2>Rocky shore monitoring</h2>
+                    <h2>CamBioMed</h2>
                   </div>
                   <div className="cardProject">
-                    <a href="subtidal">
+                    <a href="Rocky">
                       <img
                         className="projectImage"
-                        src={Achiv2}
+                        src={MonitoringLogo}
                         alt="Achievement"
                       />
                     </a>
-                    <h2>Subtidal reef surveys</h2>
+                    <h2>National Monitoring</h2>
                   </div>
                   <div className="cardProject">
                     <a href="Climate">
@@ -168,10 +169,10 @@ function App() {
             }
           />
           <Route path="/rocky" element={<Rocky />} />
-          <Route path="/subtidal" element={<Subtidal />} />
+          <Route path="/Rocky" element={<Rocky />} />
           <Route path="/Climate" element={<Climate />} />
           <Route path="/Reserves" element={<Reserves />} />
-          <Route path="/Bioinvasions" element={<Bioinvasions />} />
+          <Route path="/Cambiomed" element={<Cambiomed />} />
           <Route path="/biodiversity" element={<Biodiversity />} />
         </Routes>
 

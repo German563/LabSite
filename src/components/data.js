@@ -65,8 +65,7 @@ const peopleData = [
     _id: "7",
     name: "Anton Kovalev",
     title: "Ph.D. candidate",
-    about:
-      "My PhD project deals with the physiological mechanisms behind range distribution shifts of herbivorous fish, as a result of climate change.Co-supervisor Dr. Daniel Chernov (University of Haifa) B.Sc- Marine Biology , Ruppin Academic Center. M.Sc- Zoology, Tel Aviv University.",
+    about: "My research aims to investigate the cumulative impacts of climate change and anthropogenic pressures on Southeastern Mediterranean intertidal benthic communities. It seeks to understand how combinations of stressors, such as warming, acidification, oil and heavy metal pollution, and invasive species, affect key species within these ecosystems. Additionally, I am interested in the interplay between abiotic and biotic factors influencing the intricate relationships among closely related cryptic species (such as Mytilus spp.), mussel ecophysiology, and metabolic allometry. Co-supervisor: Prof. Smadar Ben Tabou de Leon, Marine Biology Department, Haifa University B.Sc. – Department of Invertebrate Zoology, St. Petersburg University M.Sc. – Department of Invertebrate Zoology, St. Petersburg University",
     avatar: antonAvatar,
   },
   {
@@ -82,7 +81,7 @@ const peopleData = [
     name: "Alhassan Mukaila",
     title: "M.Sc. candidate",
     about:
-      "My research will investigate the impacts of climate change and local stressors on Mediterranean reef species and their community resilience. B.Sc- Environmental science, IIUEPS",
+      "My previous academic and research experiences have predominantly been in the fields of biotechnology and microbiology, I am eager to explore new avenues for my graduate studies and contribute to research in marine ecology. I find investigating the impact of climate change and local stressors on marine biodiversity to be an incredibly fascinating area of research. As part of the ACTNOW project, a European initiative aimed at understanding and predicting the effects of multiple drivers on marine biodiversity, my research will focus on conducting a multi-parameter approach study. This study will assess the ecological resilience of Mediterranean intertidal organisms, specifically mussels and topshells, to seasonal and sewage pollution. This interdisciplinary research will employ ecological, chemical, and molecular methods. The outcome of this work aims to provide evidence-based management strategies for mitigating the impacts of sewage pollution on Mediterranean intertidal ecosystems, safeguarding the health and resilience of these environments and the organisms within them. BSc. - Biotechnology and Molecular Biology, University for Development Studies",
     avatar: alhasAvatar,
   },
   {
