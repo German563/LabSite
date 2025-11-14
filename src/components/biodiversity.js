@@ -4,9 +4,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 // Importing image files
-import gap1 from "../components/images/biodiversity/1.webp";
-import gap2 from "../components/images/biodiversity/2.webp";
-import gap3 from "../components/images/biodiversity/3.webp";
+import gap1 from "../components/images/biodiversity/1.jpg";
+import gap2 from "../components/images/biodiversity/2.jpg";
+import gap3 from "../components/images/biodiversity/3.jpg";
 
 
 export default function Slick() {
@@ -34,22 +34,68 @@ export default function Slick() {
 
   return (
     <div className="SectionWrapperProject">
-      <h2>
-        FutureMARES Climate change impacts on marine biodiversity and ecosystem
-        services – seeking nature-based solutions
-      </h2>
+      <h2>BioBoost+</h2>
+      <h3>Context</h3>
       <p>
-        Our lab, in the framework of the EU HORIZON2020 FutureMARES project, is
-        examining the relations between climate change, marine biodiversity and
-        ecosystem functions and services. Our activities are designed around two
-        Nature-based Solutions (NBS): · Effective Conservation (NBS2) ·
-        Sustainable Harvesting of Marine Resources (NBS3) ​ FutureMARES is a
-        consortium of 32 research institutions with over 30 storylines across
-        European Seas including the southeastern Mediterranean on the Israeli
-        coast. Our goal is to provide science-based policy advice on how best to
-        use NBS to protect biodiversity and ecosystem services in a future
-        climate and under increasing bioinvasions.
+        Developing rapid, informative, and robust biodiversity assessments is
+        crucial to evaluate progress in evidence-based conservation and
+        management strategies of marine biodiversity. BioBoost+ is designed to
+        improve non-invasive, cost-effective, and high-frequency sampling and
+        identification of marine biota through state-of-the-art AI technology
+        using digital imagery. This includes real-time monitoring via camera
+        networks and engagement with citizen science groups. These methods are
+        applied across diverse taxa—from habitat-forming species (seagrass
+        meadows, shellfish beds, macroalgal canopies) to ecological indicator
+        species (coastal fish, lobsters, shorebirds), invasive species, and
+        understudied groups such as microscopic plankton and rare fish.
+        BioBoost+ strengthens biodiversity monitoring across European regional
+        seas, from the Mediterranean to the North and Norwegian Seas, supporting
+        restoration initiatives and Marine Protected Areas (MPAs).
       </p>
+
+      <h3>Main Objectives</h3>
+      <ol>
+        <li>
+          Harness biodiversity imaging to create end-to-end automated data
+          streams, from image acquisition to indicator updates for conservation,
+          restoration, and management.
+        </li>
+        <li>
+          Scale up digital biodiversity data collection by engaging citizen
+          science and diverse stakeholder communities, enabling
+          multi-disciplinary monitoring at broader spatial scales.
+        </li>
+        <li>
+          Automate seabed habitat analyses (e.g., seagrasses, shellfish beds,
+          macroalgal forests) and enhance the use of drone and satellite images
+          to map human pressures and evaluate restoration and MPA effectiveness.
+        </li>
+        <li>
+          Use high-frequency time series data and systematic habitat analysis to
+          improve biodiversity metrics under current and future climate
+          scenarios, supporting adaptation and mitigation strategies.
+        </li>
+      </ol>
+
+      <h3>Main Activities</h3>
+      <p>
+        BioBoost+ applies AI to identify and count species from photographs and
+        videos. Demonstration areas will integrate: (a) satellite imagery to
+        extract large-scale biodiversity drivers such as habitat
+        characteristics, oceanographic features, and human pressures (e.g., fish
+        farms, boat tracks, windfarms, marinas); and (b) in-water and aerial
+        imagery to accelerate semi-automated species identification in
+        zooplankton, seabed fauna, and fish. Continuous collaboration with
+        stakeholders—including policy makers, scientists, and industry—is
+        embedded in all project stages to co-design automated biodiversity
+        observation systems. Knowledge and technological outputs are
+        disseminated through workshops, conferences, online tools, and
+        interactive platforms (e.g., Shiny Apps), enabling users to explore
+        biodiversity trends. Enhanced monitoring will improve understanding of
+        large-scale ecological processes such as regime shifts, thresholds, and
+        species invasions, and strengthen indicators of marine ecosystem health.
+      </p>
+
       <div style={sliderStyle}>
         <Slider {...settings}>
           <div>
@@ -65,4 +111,5 @@ export default function Slick() {
       </div>
     </div>
   );
+
 }

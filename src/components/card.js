@@ -10,7 +10,7 @@ const PersonCard = ({ person, onClick }) => {
       <img src={person.avatar} alt={person.name} style={styles.avatar} />
       <h2>{person.name}</h2>
       <h4>{person.title}</h4>
-      <p>{person.about}</p>
+      <p>{person.education}</p>
     </div>
   );
 };

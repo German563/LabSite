@@ -141,6 +141,27 @@ export default function Slick() {
           />
         </div>
       </Slider>
+      <div style={{ marginTop: "30px" }}>
+        <a
+          href="https://www.ocean.org.il/the-national-institute-of-oceanography-in-haifa-center/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ color: "blue" }}
+        >
+          National Institute of Oceanography – Haifa Center
+        </a>
+
+        <br />
+
+        <a
+          href="https://www.ocean.org.il/wp-content/uploads/2025/01/NMP-Biodiversity-report-for-2023_%D7%9E%D7%95%D7%A9%D7%92.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ color: "blue" }}
+        >
+          NMP Biodiversity Report 2023 (PDF)
+        </a>
+      </div>
     </div>
   );
 }

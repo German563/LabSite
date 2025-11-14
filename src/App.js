@@ -7,11 +7,13 @@ import Popup from "./components/Popup";
 import PersonCard from "./components/card";
 import peopleData from "./components/data";
 import Rocky from "./components/Rocky";
+import Pureefy from "./components/Pureefy";
 import Subtidal from "./components/Subtidal";
 import Climate from "./components/Climate";
 import Cambiomed from "./components/Cambiomed";
 import Reserves from "./components/Reserves";
 import Achiv2 from "./components/images/rocky/Achiv2.webp";
+import Actnow from "./components/images/ActNow/actnowlogo.png";
 import Biodiversity from "./components/biodiversity";
 import Publications from "./components/Publications";
 import logoYoutube from "./components/images/logos/icons8-youtube.svg";
@@ -20,6 +22,9 @@ import logoInstagram from "./components/images/logos/icons8-instagram.svg";
 import logoFacebook from "./components/images/logos/icons8-facebook.svg";
 import CamBio from "./components/images/Cambiomed/CAMBioMED_logo-200x100.png";
 import MonitoringLogo from "./components/images/rocky/Lab_Logo_High_res.png";
+import PureefyLogo from "./components/images/Pureefy/Pureef-y-400x355.png";
+import biodiversaLogo from "./components/images/reserves/biodiversa logo.png";
+
 function App() {
   const [isBackPopupOpen, setBackPopupOpen] = useState(false);
   const [isPopupOpen, setPopupOpen] = useState(false);
@@ -62,8 +67,15 @@ function App() {
                       </li>
                     </ul>
                     <div className="titleWrapper">
-                      <h1>The Rilov Lab</h1>
-                      <h2>Marine community ecology</h2>
+                      <h1 
+                      // style={{ opacity: "0.5" }}
+                      >
+                        The Rilov Lab</h1>
+                      <h2 
+                      // style={{ opacity: "0.5" }}
+                      >
+                        Marine community ecology
+                      </h2>
                     </div>
                   </nav>
                   <div className="overlay2" />
@@ -87,7 +99,8 @@ function App() {
                       onClick={() => openPopupWithPerson(person)}
                     />
                   ))}
-
+                </div>
+                <div className="person-card-container" id="team">
                   {/* Projects Section */}
                   <div className="cardProject" id="projects">
                     <a href="Cambiomed">
@@ -113,21 +126,21 @@ function App() {
                     <a href="Climate">
                       <img
                         className="projectImage"
-                        src={Achiv2}
+                        src={Actnow}
                         alt="Achievement"
                       />
                     </a>
-                    <h2>Impacts of Climate changes</h2>
+                    <h2>ACTNOW</h2>
                   </div>
                   <div className="cardProject">
-                    <a href="Bioinvasions">
+                    <a href="Pureefy">
                       <img
                         className="projectImage"
-                        src={Achiv2}
+                        src={PureefyLogo}
                         alt="Achievement"
                       />
                     </a>
-                    <h2>Marine Bioinvasions</h2>
+                    <h2>Pureefy</h2>
                   </div>
                   <div className="cardProject">
                     <a href="Reserves">
@@ -137,17 +150,17 @@ function App() {
                         alt="Achievement"
                       />
                     </a>
-                    <h2>Marine Reserves</h2>
+                    <h2>EuRockFish</h2>
                   </div>
                   <div className="cardProject">
                     <a href="biodiversity">
                       <img
                         className="projectImage"
-                        src={Achiv2}
+                        src={biodiversaLogo}
                         alt="Achievement"
                       />
                     </a>
-                    <h2>FutureMARES</h2>
+                    <h2>BioBoost+</h2>
                   </div>
                 </div>
 
@@ -156,7 +169,11 @@ function App() {
                   {selectedPerson && (
                     <>
                       <h2>{selectedPerson.name}</h2>
+
                       <p>{selectedPerson.about}</p>
+                      <p style={{ whiteSpace: "pre-line" }}>
+                        {selectedPerson.education}
+                      </p>
                     </>
                   )}
                 </Popup>
@@ -174,6 +191,7 @@ function App() {
           <Route path="/Reserves" element={<Reserves />} />
           <Route path="/Cambiomed" element={<Cambiomed />} />
           <Route path="/biodiversity" element={<Biodiversity />} />
+          <Route path="/Pureefy" element={<Pureefy />} />
         </Routes>
 
         {/* ✅ Footer (outside Routes, visible on all pages) */}

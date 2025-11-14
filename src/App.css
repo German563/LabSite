@@ -190,6 +190,9 @@ visibility: visible;
       height: 300px;
 }
 .cardProject {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   border-radius: 8px;
   width: 300px;
   padding: 21px 71px;
@@ -208,7 +211,7 @@ visibility: visible;
   flex-direction: column;
 z-index: 5;
 position: relative;
-margin: 0 auto;
+margin: -40px auto;
 color:white;
 align-items: center;
 /* margin-top: -400px; */
