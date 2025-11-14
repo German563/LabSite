@@ -1,7 +1,7 @@
 import gilAvatar from "./images/people/gil.avif";
 import guyAvatar from "./images/people/guy.avif";
 import shaiAvatar from "./images/people/shai.avif";
-import uviAvatar from "./images/people/yuval.avif";
+import uviAvatar from "./images/people/yuval1.jpg";
 import rovAvatar from "./images/people/Ril-Rov.avif";
 import irisvAvatar from "./images/people/iris_edited.avif";
 import antonAvatar from "./images/people/anton.avif";
@@ -39,7 +39,7 @@ const peopleData = [
     name: "Yuval Sonego",
     title: "Lab Technician",
     about:
-      "Since I was child I always had a great love and curiosity for the mysteries of the ocean. Here in the lab I'll be focusing on the canopy forming algae Gongolaria, and the interactions between the various ecological communities.",
+      "’m a research assistant in a marine ecology lab studying canopy-forming brown algae and their role in shaping coastal ecosystems. A significant part of my work  is dedicated to monitoring populations of these habitat-forming species, which create unique marine forest habitats along the Mediterranean coast. I have been investigating their morphology, phenology, reproductive cycles, and ecological functions to better understand their influence on community structure and ecosystem processes in rocky shore environments.",
     education: "B.Sc – Marine Biology, Ruppin Academic Center",
     avatar: uviAvatar,
   },
