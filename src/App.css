@@ -190,7 +190,7 @@ visibility: visible;
       height: 300px;
 }
 .cardProject {
-  display: flex;
+display: flex;
   flex-wrap: wrap;
   justify-content: center;
   border-radius: 8px;
@@ -198,6 +198,7 @@ visibility: visible;
   padding: 21px 71px;
   overflow: hidden;
   cursor: pointer;
+  align-items: flex-end;
 }
 .slickSection {
   margin-top: -400px;

@@ -20,7 +20,7 @@ import logoYoutube from "./components/images/logos/icons8-youtube.svg";
 import logoTwitter from "./components/images/logos/icons8-twitter.svg";
 import logoInstagram from "./components/images/logos/icons8-instagram.svg";
 import logoFacebook from "./components/images/logos/icons8-facebook.svg";
-import CamBio from "./components/images/Cambiomed/CAMBioMED_logo-200x100.png";
+import CamBio from "./components/images/Cambiomed/CAMBioMED_logo-200x100.jpg";
 import MonitoringLogo from "./components/images/rocky/Lab_Logo_High_res.png";
 import PureefyLogo from "./components/images/Pureefy/Pureef-y-400x355.png";
 import biodiversaLogo from "./components/images/reserves/biodiversa logo.png";
@@ -67,11 +67,12 @@ function App() {
                       </li>
                     </ul>
                     <div className="titleWrapper">
-                      <h1 
+                      <h1
                       // style={{ opacity: "0.5" }}
                       >
-                        The Rilov Lab</h1>
-                      <h2 
+                        The Rilov Lab
+                      </h1>
+                      <h2
                       // style={{ opacity: "0.5" }}
                       >
                         Marine community ecology
@@ -105,16 +106,22 @@ function App() {
                   <div className="cardProject" id="projects">
                     <a href="Cambiomed">
                       <img
+                        style={{
+                          height: "100%",
+                        }}
                         className="projectImage"
                         src={CamBio}
                         alt="Achievement"
                       />
                     </a>
-                    <h2>CamBioMed</h2>
+                    <h2 style={{}}>CamBioMed</h2>
                   </div>
                   <div className="cardProject">
                     <a href="Rocky">
                       <img
+                        style={{
+                          height: "100%",
+                        }}
                         className="projectImage"
                         src={MonitoringLogo}
                         alt="Achievement"
@@ -125,6 +132,9 @@ function App() {
                   <div className="cardProject">
                     <a href="Climate">
                       <img
+                        style={{
+                          height: "100%",
+                        }}
                         className="projectImage"
                         src={Actnow}
                         alt="Achievement"
@@ -135,6 +145,9 @@ function App() {
                   <div className="cardProject">
                     <a href="Pureefy">
                       <img
+                        style={{
+                          height: "100%",
+                        }}
                         className="projectImage"
                         src={PureefyLogo}
                         alt="Achievement"
@@ -145,6 +158,9 @@ function App() {
                   <div className="cardProject">
                     <a href="Reserves">
                       <img
+                        style={{
+                          height: "100%",
+                        }}
                         className="projectImage"
                         src={Achiv2}
                         alt="Achievement"
@@ -155,12 +171,18 @@ function App() {
                   <div className="cardProject">
                     <a href="biodiversity">
                       <img
+                        style={{
+                          height: "100%",
+                        }}
                         className="projectImage"
                         src={biodiversaLogo}
                         alt="Achievement"
                       />
                     </a>
-                    <h2>BioBoost+</h2>
+                    <h2
+                    >
+                      BioBoost+
+                    </h2>
                   </div>
                 </div>
 
