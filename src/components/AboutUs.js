@@ -15,17 +15,8 @@ function AboutUs() {
             habitat-species linkages and quantifying the cumulative impacts of
             multiple stressors on marine ecosystems
           </p>
-          <p>
-            Through this website I would like to show my work. Here you will
-            find information about my research projects, publications and
-            conferences.
-          </p>
           <p>Prof. Gil Rilov.</p>
           <p>Senior Researcher</p>
-          <p>Israel Oceanographic & Limnological Research</p>
-          <p> Associate Professor in the University of Haifa</p>
-          <p>199 Aba Khoushy Ave., Mt. Carmel</p>
-          <p>Haifa, Israel</p>
           <p>
             E-mail:{" "}
             <a href="mailto:rilovg@ocean.org.il">
@@ -37,12 +28,18 @@ function AboutUs() {
             Invasive species, Conservation Biology, Benthic marine communities
           </p>
         </div>
-        <div class="gilImage">
-          <img src={gilAvatar} alt="Prof. Gil Rilov" />
-        </div>
+        <a
+          href="https://cris.haifa.ac.il/en/persons/gil-rilov"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div class="gilImage">
+            <img src={gilAvatar} alt="Prof. Gil Rilov" />
+          </div>
+        </a>
       </div>
       <h2 className="h2"> About Us </h2>
-      <p className="h2">
+      <p className="h">
         Marine Community Ecology Lab(the Rilov Lab): As part of the Marine
         Biology Department at IOLR in Haifa, Israel, our lab studies diverse
         aspects of marine community ecology and conservation.Our focal study

@@ -1,13 +1,17 @@
 import React from "react";
 import Slider from "react-slick";
+import "../App.css";
+// ✅ slick styles first
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
+// ✅ your overrides last so they apply
+import "../App.css";
 
 // Importing image files
 import gap1 from "../components/images/biodiversity/1.jpg";
 import gap2 from "../components/images/biodiversity/2.jpg";
 import gap3 from "../components/images/biodiversity/3.jpg";
-
 
 export default function Slick() {
   const settings = {
@@ -22,19 +26,20 @@ export default function Slick() {
 
   const sliderStyle = {
     margin: "10px 0 0 0",
-    height: "100vh", // Full viewport height for the slider
+    height: "100vh",
   };
 
   const imageStyle = {
     display: "block",
-    margin: "0 auto", // Centers the image inside its container
-    maxWidth: "100%", // Ensures the image doesn't exceed container size
-    height: "auto", // Maintains aspect ratio
+    margin: "0 auto",
+    maxWidth: "100%",
+    height: "auto",
   };
 
   return (
     <div className="SectionWrapperProject">
       <h2>BioBoost+</h2>
+
       <h3>Context</h3>
       <p>
         Developing rapid, informative, and robust biodiversity assessments is
@@ -96,20 +101,20 @@ export default function Slick() {
         species invasions, and strengthen indicators of marine ecosystem health.
       </p>
 
-      <div style={sliderStyle}>
+      {/* ✅ slider wrapper */}
+      <div className="slickSection" style={sliderStyle}>
         <Slider {...settings}>
           <div>
-            <img src={gap1} style={imageStyle} />
+            <img src={gap1} style={imageStyle} alt="BioBoost slide 1" />
           </div>
           <div>
-            <img src={gap2} style={imageStyle} />
+            <img src={gap2} style={imageStyle} alt="BioBoost slide 2" />
           </div>
           <div>
-            <img src={gap3} style={imageStyle} />
+            <img src={gap3} style={imageStyle} alt="BioBoost slide 3" />
           </div>
         </Slider>
       </div>
     </div>
   );
-
 }

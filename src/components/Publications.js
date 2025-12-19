@@ -16,7 +16,6 @@ function Publications() {
     }
   };
   const headingStyle = {
-    backgroundColor: "#f3f4f6",
     padding: "0.75rem 1rem",
     fontSize: "1.125rem",
     fontWeight: "bold",
@@ -25,6 +24,7 @@ function Publications() {
     textAlign: "center",
     display: "block",
     margin: "0 auto",
+    color:"white"
   };
 
   const publications = {
