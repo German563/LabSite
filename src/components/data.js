@@ -84,6 +84,16 @@ const peopleData = [
     avatar: erezAvatar,
   },
   {
+    _id: "12",
+    name: "Natalia Vasekha",
+    title: "Ph.D. candidate",
+    about:
+      "Her research focuses on comparing structural and functional changes in shallow macrophyte reef communities at two Eastern Mediterranean change hotspots: Israel and Cyprus. She investigates warming and invasion effects using metabolic incubations, trait analysis, and monitoring selected species.",
+    education:
+      "B.Sc. – Department of Biogeography, Lomonosov Moscow State University",
+    avatar: natashahAvatar,
+  },
+  {
     _id: "9",
     name: "Alhassan Mukaila",
     title: "M.Sc. candidate",
@@ -111,14 +121,7 @@ const peopleData = [
     education: "B.Sc – Soil and Water Sciences, Hebrew University",
     avatar: gershAvatar,
   },
-  {
-    _id: "12",
-    name: "Natalia Vasekha",
-    title: "Ph.D. candidate",
-    about:
-      "Her research focuses on comparing structural and functional changes in shallow macrophyte reef communities at two Eastern Mediterranean change hotspots: Israel and Cyprus. She investigates warming and invasion effects using metabolic incubations, trait analysis, and monitoring selected species.",
-    avatar: natashahAvatar,
-  },
+
   {
     _id: "13",
     name: "Batia Wolf",

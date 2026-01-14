@@ -3,18 +3,29 @@ import peopleData from "../components/data.js";
 
 // Card Component to display individual profiles
 const PersonCard = ({ person, onClick }) => {
+  const isAnton = person._id === "7";
+
   return (
     <div style={styles.card} onClick={onClick}>
-      {" "}
-      {/* Add onClick to the card container */}
       <img src={person.avatar} alt={person.name} style={styles.avatar} />
-      <h2>{person.name}</h2>
+
+      <h2
+        style={{
+          ...styles.name,
+          ...(isAnton && {
+            fontFamily: '"Anton", sans-serif',
+            letterSpacing: "0.06em",
+          }),
+        }}
+      >
+        {person.name}
+      </h2>
+
       <h4>{person.title}</h4>
       <p>{person.education}</p>
     </div>
   );
 };
-
 // Styles
 const styles = {
   container: {

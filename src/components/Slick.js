@@ -23,8 +23,9 @@ export default function Slick() {
     infinite: true,
   };
   const sliderStyle = {
-    margin: "-210px 0 0 0",
+    margin: '0',
     height: "100vh", // Makes the slider take the full viewport height
+    
   };
 
   const imageStyle = {
