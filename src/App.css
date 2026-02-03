@@ -313,3 +313,10 @@ h3 {
 li {
   color: white;
 }
+.page__background {
+  pointer-events: none;  /* IMPORTANT when closed */
+}
+
+.page__background_opened {
+  pointer-events: auto;  /* clickable only when popup open */
+}

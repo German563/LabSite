@@ -1,4 +1,4 @@
-import gilAvatar from "./images/people/gil.avif";
+
 import guyAvatar from "./images/people/guy.avif";
 import shaiAvatar from "./images/people/shai.avif";
 import uviAvatar from "./images/people/yuval1.jpg";
@@ -12,6 +12,49 @@ import gershAvatar from "./images/people/gershon.avif";
 import natashahAvatar from "./images/people/natasha.avif";
 import batiaAvatar from "./images/people/batia.avif";
 import felisAvatar from "./images/people/Felis.avif";
+
+import adi from "./images/pastStudents/adi.jpg";
+import eyal from "./images/pastStudents/Eyal.jpg";
+import aliza from "./images/pastStudents/aliza.jpg";
+
+import ateret from "./images/pastStudents/ateret.jpg";
+import brooke from "./images/pastStudents/brooke.jpg";
+import chen from "./images/pastStudents/chen.jpg";
+
+import dor from "./images/pastStudents/dor.jpg";
+import elena from "./images/pastStudents/elena.jpg";
+import gidi from "./images/pastStudents/gidi.jpg";
+
+import inbal from "./images/pastStudents/inbal.jpg";
+import ines from "./images/pastStudents/ines.jpg";
+import khristina from "./images/pastStudents/khristina.jpg";
+
+import laura from "./images/pastStudents/laura.jpg";
+import lior from "./images/pastStudents/lior.jpg";
+
+import lisa from "./images/pastStudents/lisa.jpg";
+import luisa from "./images/pastStudents/luisa.jpg";
+import liorKline from "./images/pastStudents/lior kline.jpg";
+import martina from "./images/pastStudents/martina.jpg";
+import maura from "./images/pastStudents/maura.jpg";
+import nadine from "./images/pastStudents/nadine.jpg";
+import Kate from "./images/pastStudents/kate.jpg";
+import tamar from "./images/pastStudents/tamar.jpg";
+import yaniv from "./images/pastStudents/yaniv.jpg";
+
+import netaLy from "./images/pastStudents/neta-ly.jpg";
+import ofrat from "./images/pastStudents/ofrat.jpg";
+import ohad from "./images/pastStudents/ohad.jpg";
+import patrick from "./images/pastStudents/patrick.jpg";
+import paul from "./images/pastStudents/paul.jpg";
+import reut from "./images/pastStudents/reut.jpg";
+import sophia from "./images/pastStudents/sophia.jpg";
+import tal from "./images/pastStudents/tal.jpg";
+
+
+
+
+
 
 const peopleData = [
   {
@@ -90,7 +133,7 @@ const peopleData = [
     about:
       "Her research focuses on comparing structural and functional changes in shallow macrophyte reef communities at two Eastern Mediterranean change hotspots: Israel and Cyprus. She investigates warming and invasion effects using metabolic incubations, trait analysis, and monitoring selected species.",
     education:
-      "B.Sc. – Department of Biogeography, Lomonosov Moscow State University",
+      "B.Sc. – Department of Biogeography, Lomonosov Moscow State University\n M.Sc. – Department of Biogeography, Lomonosov Moscow State University",
     avatar: natashahAvatar,
   },
   {
@@ -139,6 +182,282 @@ const peopleData = [
     education: "B.Sc – Department of Animal Science, Egerton University",
     avatar: felisAvatar,
   },
+
 ];
 
-export default peopleData;
+const OldpeopleData = [
+  {
+    _id: "101",
+    name: "Adi Barash",
+    title: "M.Sc. Student (Alumni)",
+    about:
+      "Database analysis, species identification, phylogeography, and spatio-temporal distribution of requiem sharks (genus Carcharhinus) along the Israeli Mediterranean coast. Co-supervisor: Prof. Leon Blaunstein (University of Haifa).",
+    education:
+      "B.Sc – Marine Biology, Ruppin Academic Center\nM.Sc – University of Haifa",
+    avatar: adi,
+  },
+  {
+    _id: "102",
+    name: "Aliza Leit",
+    title: "M.Sc. Student (Alumni)",
+    about:
+      "Research interests include conservation, vermetid reefs, and intertidal resource management. Thesis focused on the invasive oyster Spondylus spinosus along the Israeli Mediterranean coast.",
+    education: "M.Sc – Zoology, Tel Aviv University",
+    avatar: aliza,
+  },
+  {
+    _id: "103",
+    name: "Brooke Dominguez",
+    title: "Ph.D. Candidate (Alumni)",
+    about:
+      "Research focused on thermal tolerance, vulnerability, and acclimation potential of intertidal marine invertebrates under present and future heatwave scenarios. Part of the FutureMARES project.",
+    education:
+      "B.Sc – Biology, Texas A&M University–Corpus Christi\nM.Sc – Zoology, Tel Aviv University",
+    avatar: brooke,
+  },
+  {
+    _id: "104",
+    name: "Dor Edelist",
+    title: "Postdoctoral Researcher (Alumni)",
+    about:
+      "Research interests included ecosystem services in the Mediterranean and Red Seas and citizen science outreach initiatives, including EU Mare Nostrum project.",
+    education:
+      "B.Sc – Marine Biology & Biological Oceanography, Ruppin Academic Center\nM.A – Marine Ecology, University of Haifa\nPh.D – Marine Ecology, University of Haifa",
+    avatar: dor,
+  },
+  {
+    _id: "105",
+    name: "Elena Bogdanova",
+    title: "M.Sc. Student (Alumni)",
+    about:
+      "Research interests in reef ecology, conservation, and 3D reef modeling.",
+    education: "M.Sc – Marine Biology, University of Haifa",
+    avatar: elena,
+  },
+  {
+    _id: "106",
+    name: "Eyal Amsalem",
+    title: "M.Sc. Student (Alumni)",
+    about:
+      "Physiological and behavioral performance of the rockpool shrimp Palaemon elegans in the context of climate change.",
+    education:
+      "B.Sc – Marine Biology, Ruppin Academic Center\nM.Sc – Marine Biology, University of Haifa",
+    avatar: eyal,
+  },
+  {
+    _id: "107",
+    name: "Gidi Levi",
+    title: "Lab Technician (Alumni)",
+    about: "Led the subtidal survey program between 2013–2015.",
+    education:
+      "B.Sc – Marine Biology & Biological Oceanography, Ruppin Academic Center\nM.Sc – Coral Restoration, University of Haifa",
+    avatar: gidi,
+  },
+  {
+    _id: "108",
+    name: "Inbal Gamliel",
+    title: "M.Sc. Student (Alumni)",
+    about:
+      "Predicting species distributions under climate change using laboratory experiments combined with species distribution models.",
+    education: "M.Sc – Marine Biology",
+    avatar: inbal,
+  },
+  {
+    _id: "109",
+    name: "Inês Gonçalves",
+    title: "M.Sc. Candidate (Alumni)",
+    about:
+      "Research within the EU Horizon 2020 FutureMARES project on climate change impacts on eastern Mediterranean reef species and ecosystem functions.",
+    education:
+      "B.Sc – Biology, University of Coimbra\nM.Sc – Marine Biology, University of Algarve",
+    avatar: ines,
+  },
+  {
+    _id: "110",
+    name: "Kate Kaufman",
+    title: "Lab Intern (Alumni)",
+    about:
+      "Assisted lab members in field and laboratory work at IOLR.",
+    education:
+      "B.A – Environmental Science & Policy, Florida State University",
+    avatar: Kate,
+  },
+  {
+    _id: "111",
+    name: "Khristina Ermak",
+    title: "M.Sc. Student (Alumni)",
+    about:
+      "Studied interactions and thermal performance of native and invasive Cerithium sea snails under climate change and bioinvasions.",
+      education: "M.Sc – Marine Biology",
+    avatar: khristina,
+  },
+  {
+    _id: "112",
+    name: "Laura Argens",
+    title: "Visiting M.Sc. Student (Alumni)",
+    about:
+      "Studied effects of extreme heat events on feeding behavior of marine herbivorous molluscs as part of the GAME global research program (GEOMAR).",
+    education:
+      "B.Sc – Biology, Gutenberg University Mainz\nM.Sc – Ecology & Evolution, Goethe University Frankfurt",
+    avatar: laura,
+  },
+  {
+  _id: "116",
+  name: "Lior Klein",
+  title: "M.Sc. Student (Alumni)",
+  about:
+    "The effects of temperature changes on grazer gastropod species along the rocky shores of the Eastern Mediterranean.",
+  education:
+    "B.Sc – Life Sciences, Bar-Ilan University\nM.Sc – Bar-Ilan University",
+  avatar: liorKline,
+},
+{
+  _id: "117",
+  name: "Lior Bartal",
+  title: "Lab Technician (Alumni)",
+  about:
+    "Responsible for the national intertidal biodiversity monitoring and database along the Israeli coast. Involved in experiments addressing climate change, ecosystem functions, and biodiversity of native and invasive organisms.",
+  education:
+    "B.Sc – Marine Biology, Ruppin Academic Center",
+  avatar: lior,
+},
+{
+  _id: "118",
+  name: "Luisa Düsedau",
+  title: "Visiting M.Sc. Student (Alumni)",
+  about:
+    "Studied the effects of climate change on the performance of the invasive gastropod Conomurex persicus as part of the GAME (Global Approach by Modular Experiments) program by GEOMAR.",
+  education:
+    "B.Sc – Biosciences, Rostock University\nM.Sc – Ecology & Evolution, Goethe University Frankfurt am Main",
+  avatar: luisa,
+},
+{
+  _id: "119",
+  name: "Martina Mulas",
+  title: "Ph.D. Student (Alumni)",
+  about:
+    "PhD research focused on biodiversity shifts driven by climate change and bioinvasions and their effects on reef ecosystem functions, with emphasis on Cystoseira forests.",
+  education:
+    "B.Sc – Ecology, University of Rome “Tor Vergata”\nM.Sc – Marine Biology, Marche Polytechnic University\nPh.D – Marine Sciences",
+  avatar: martina,
+},
+{
+  _id: "120",
+  name: "Maura Schonwald",
+  title: "Lab Technician (Alumni)",
+  about:
+    "Responsible for the national intertidal biodiversity monitoring and database along the Israeli coast between 2018–2019 and assisted with experiments on climate change and ecosystem functions.",
+  education: "",
+  avatar: maura,
+},
+{
+  _id: "121",
+  name: "Nadine Awwad",
+  title: "M.Sc. Candidate (Alumni)",
+  about:
+    "Research focused on the effects of pollution and temperature on fish larvae development and survival along the Israeli Mediterranean coast.",
+  education:
+    "B.Sc – Marine & Environmental Sciences, Ruppin Academic Center",
+  avatar: nadine,
+},
+{
+  _id: "122",
+  name: "Neta-Ly Lipkin",
+  title: "M.Sc. Candidate (Alumni)",
+  about:
+    "Research on spatial-temporal plasticity of the native seagrass Halophila stipulacea under changing environmental conditions.",
+  education:
+    "B.Sc – Marine Biology, Ruppin Academic Center",
+  avatar: netaLy,
+},
+{
+  _id: "123",
+  name: "Ofrat Raveh",
+  title: "Lab Technician (Alumni)",
+  about:
+    "Led the rocky shore monitoring program along the Israeli coast between 2012–2014.",
+  education:
+    "B.Sc – Marine Biology & Biological Oceanography, Ruppin Academic Center",
+  avatar: ofrat,
+},
+{
+  _id: "124",
+  name: "Ohad Peleg",
+  title: "Lab Technician & M.Sc. (Alumni)",
+  about:
+    "Research focused on biodiversity-driven changes in ecosystem functions of rocky benthic communities along the Israeli Mediterranean coast.",
+  education:
+    "B.Sc – Marine Biology, Ruppin Academic Center\nM.Sc – Marine Biology, University of Haifa\nPh.D – University of Auckland",
+  avatar: ohad,
+},
+{
+  _id: "125",
+  name: "Patrick Chavel",
+  title: "Ph.D. Candidate (Alumni)",
+  about:
+    "Evaluated ecosystem services of Mediterranean rocky reefs using marine protected areas as case studies.",
+  education: "",
+  avatar: patrick,
+},
+{
+  _id: "126",
+  name: "Paul Kahles",
+  title: "M.Sc. Candidate (Alumni)",
+  about:
+    "Investigated the impact of artificial light at night on colonization processes of sessile invertebrates and macroalgae as part of the GAME program.",
+  education:
+    "B.Sc – Biology, University of Bayreuth\nM.Sc – Biological Sciences, University of Konstanz",
+    avatar: paul,
+},
+{
+  _id: "127",
+  name: "Reut Zamir",
+  title: "M.Sc. Student (Alumni)",
+  about:
+    "Studied the impact of extreme desiccation events on vermetid reef ecosystems under climate change.",
+  education:
+    "M.Sc – Porter School of Environmental Studies, Tel Aviv University",
+  avatar: reut,
+},
+{
+  _id: "128",
+  name: "Sophia Walter",
+  title: "M.Sc. Candidate (Alumni)",
+  about:
+    "Researched the effects of artificial light at night on sessile invertebrate and macroalgal communities as part of the GAME program.",
+  education: "",
+  avatar: sophia,
+},
+{
+  _id: "129",
+  name: "Tal Garval",
+  title: "M.Sc. Student (Alumni)",
+  about:
+    "Studied population dynamics and ecological impacts of the alien macroalgae Galaxaura rugosa along the Israeli coast.",
+  education:
+    "B.Sc – Marine Biology, Ruppin Academic Center\nM.Sc – Marine Biology, University of Haifa",
+  avatar: tal,
+},
+{
+  _id: "130",
+  name: "Tamar Guy-Haim",
+  title: "Ph.D. (Alumni)",
+  about:
+    "Research on ecological and physiological effects of climate change on benthic communities in the Baltic Sea and Levant Basin.",
+  education:
+    "B.Sc – Life Sciences, Hebrew University of Jerusalem\nM.Sc – Marine Ecology, Bar-Ilan University\nPh.D – University of Haifa",
+  avatar: tamar,
+},
+{
+  _id: "131",
+  name: "Yaniv Levi",
+  title: "Ph.D. (Alumni)",
+  about:
+    "Research on sea turtle conservation, life history, and fisheries impacts on Mediterranean turtle populations.",
+  education: "",
+  avatar: yaniv,
+},
+];
+
+export { peopleData, OldpeopleData };
+

@@ -10,8 +10,9 @@ import "./App.css";
 import Slick from "./components/Slick";
 import AboutUs from "./components/AboutUs";
 import Popup from "./components/Popup";
+import OldMembers from "./components/oldMembers";
 import PersonCard from "./components/card";
-import peopleData from "./components/data";
+import { peopleData } from "./components/data";
 import Rocky from "./components/Rocky";
 import Pureefy from "./components/Pureefy";
 import Subtidal from "./components/Subtidal";
@@ -51,6 +52,7 @@ function AppContent() {
     "/Cambiomed",
     "/biodiversity",
     "/Pureefy",
+     "/formerstudents",
   ];
   useEffect(() => {
     const link = document.createElement("link");
@@ -127,15 +129,38 @@ function AppContent() {
               <Slick />
               <AboutUs />
 
-              <div className="person-card-container" id="team">
-                {peopleData.map((person) => (
-                  <PersonCard
-                    key={person._id}
-                    person={person}
-                    onClick={() => openPopupWithPerson(person)}
-                  />
-                ))}
-              </div>
+<div className="person-card-container" id="team">
+  {peopleData.map((person) => (
+    <PersonCard
+      key={person._id}
+      person={person}
+      onClick={() => openPopupWithPerson(person)}
+    />
+  ))}
+
+</div>
+<div
+ style={{
+        display: 'flex'
+      }}>
+    <button
+      onClick={() => navigate("/formerstudents")}
+      style={{
+        position: 'relative',
+        margin: "auto",
+        padding: "16px 18px",
+        borderRadius: "16px",
+        border: "none",
+        background: "#0c4a6e",
+        color: "white",
+        fontSize: "18px",
+        fontWeight: "bold",
+        cursor: "pointer",
+      }}
+    >
+      Former Students →
+    </button>
+    </div>
               <h2 class="h2"> Projects </h2>
               <div className="person-card-container" id="projects">
                 <div className="cardProject">
@@ -225,6 +250,8 @@ function AppContent() {
             </>
           }
         />
+<Route path="/formerstudents" element={<OldMembers />} />
+
         <Route path="/rocky" element={<Rocky />} />
         <Route path="/Rocky" element={<Rocky />} />
         <Route path="/Climate" element={<Climate />} />
