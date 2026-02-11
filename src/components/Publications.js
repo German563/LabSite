@@ -29,8 +29,66 @@ function Publications() {
 
   const publications = {
     "Open All": [],
-    2025: [
-      {
+    2026: [
+  {
+    authors:
+      "Rilov G, Zilberman S, Raanan G, Sonego Y",
+    year: "2026",
+    title:
+      "No recovery: long-term monitoring reveals continuous low abundance with high population fluctuations of the endemic reef-building vermetid snail, Dendropoma anguliferum, on Levantine rocky shores.",
+    journal: "Mediterranean Marine Science",
+    doi: "https://doi.org/10.12681/mms.42455",
+  },
+  {
+    authors:
+      "Darnaude AM, Tanner S, Blanco A, Sturrock A, Teff-Seker Y, Pérez-Ruzafa A, Kotta J, Guy-Haim T, Barboza FR, Hidalgo M, Guizien K, Penca J, López-López L, Beger M, Costantini F, Arnaud-Haond S, Riginos C, Hostens K, Rilov G, Katsanevakis S, Hunter E",
+    year: "2026",
+    title:
+      "Shaping research in marine functional connectivity for more integrated and effective marine science and management.",
+    journal: "Biological Reviews",
+    doi: "https://doi.org/10.1002/brv.70120",
+  },
+],
+
+2025: [
+  {
+    authors:
+      "Ravaglioli C, Pedicini L, Tempesti J, Langeneck J, Biagiotti I, Bertocci I, Mulas M, Silverman J, Rilov G, Bulleri F",
+    year: "2025",
+    title:
+      "The biodiversity and metabolic functioning of alternative macroalgal habitats on Mediterranean rocky reefs.",
+    journal: "Limnology and Oceanography",
+    doi: "https://doi.org/10.1002/lno.70292",
+  },
+  {
+    authors:
+      "Cassidy MM, Schoenrock KM, Rilov G, Krueger-Hadfield SA",
+    year: "2025",
+    title:
+      "Galaxaura lessepsiana sp. nov. (Galaxauraceae, Florideophyceae), a new species from Israel complicates Lessepsian migration paradigm for G. rugosa.",
+    journal: "Notulae Algarum",
+    note: "383",
+  },
+  {
+    authors:
+      "Knobler S, Rilov G, Garfinkel H, Liberzon D",
+    year: "2025",
+    title:
+      "Climate Change Impacts in the Eastern Mediterranean Sea: Trends and Extremes.",
+    journal: "Water Waves",
+    doi: "https://doi.org/10.1007/s42286-025-00118-5",
+  },
+  {
+    authors:
+      "Barrett TJ, Li M, Gouhier T, Rilov G, Helmuth B, Choi F, Filin S, Müftü S",
+    year: "2025",
+    title:
+      "Fine-scale surface complexity promotes temperature extremes but reduces the spatial extent of refugia on coastal rocks.",
+    journal: "Ecological Modelling",
+    note: "501",
+    doi: "https://doi.org/10.1016/j.ecolmodel.2024.110969",
+  },
+        {
         authors:
           "Carlot J, Galobart C, Gómez-Gras D, Santamaría J, Golo R, Sini M, Cebrian E, Gerovasileiou V, Ponti M, Turicchia E, Comeau S, Rilov G, Tamburello L, Pulido Mantas T, Cerrano C, Ledoux JB, Gattuso JP, Ramirez-Calero S, Millán Agudo L, Montefalcone M, Katsanevakis S, Bensoussan N, Garrabou J, Teixidó N",
         year: "2025",
@@ -39,17 +97,7 @@ function Publications() {
         journal: "Nature Communications",
         note: "In press.",
       },
-      {
-        authors:
-          "Barrett TJ, Li M, Gouhier T, Rilov G, Helmuth B, Choi F, Filin S, Müftü S",
-        year: "2025",
-        title:
-          "Fine-scale surface complexity promotes temperature extremes but reduces the spatial extent of refugia on coastal rocks.",
-        journal: "Ecological Modelling",
-        note: "501",
-        doi: "https://doi.org/10.1016/j.ecolmodel.2024.110969",
-      },
-    ],
+],
     2024: [
       {
         authors:
@@ -1052,6 +1100,70 @@ function Publications() {
         note: "45: 431-451",
       },
     ],
+"Books and Chapters": [
+
+  {
+    authors:
+      "Chen W, Ruiz-Frau A, Simons A, Koch S, van den Burg SWK, Rilov G, Teng X, Zhao Q, Zhang P, Renaud P, Bellerby R, Yakushev E, Teien KT, White LT",
+    year: "2023",
+    title:
+      "Coastal Management: Adaptation and Resilience of Coastal Ecosystems to Environmental Change. In: Reference Module in Earth Systems and Environmental Sciences. Elsevier. https://doi.org/10.1016/b978-0-323-90798-9.00067-6",
+  },
+
+  {
+    authors:
+      "Creed JC, Rocha RM, Hoeksema BW, Serrano E, Rilov G, Milazzo M, Miranda RJ, Sánchez JA, Fleury BG, Silva AG",
+    year: "2021",
+    title:
+      "Invasive alien species and their effects on marine animal forests. In: Perspectives on the Marine Animal Forest of the World (Rossi S, Bramanti L, eds). Springer, Heidelberg, Germany.",
+  },
+
+  {
+    authors: "Rilov G, Peleg O, Guy-Haim T",
+    year: "2019",
+    title:
+      "The Restructuring of Levant Reefs by Aliens, Ocean Warming and Overfishing: Implications to Species Interactions and Ecosystem Functions. In: Interactions in the Marine Benthos: Global Patterns and Processes (Hawkins SJ, Bohn K, Firth LB, Williams GA, eds). Cambridge University Press, Cambridge, UK. Chapter 9, pp. 214–237.",
+  },
+
+  {
+    authors: "Rilov G, Treves H",
+    year: "2010",
+    title:
+      "Climate change effects on marine ecological communities. In: Role of Seaweeds in Future Globally Changing Environments (Israel et al., eds). Springer, Heidelberg, Germany. pp. 51–68.",
+  },
+
+  {
+    authors: "Rilov G, Crooks J (eds)",
+    year: "2009",
+    title:
+      "Biological Invasions in Marine Ecosystems: Ecological, Management, and Geographic Perspectives. Ecological Studies Series. Springer, Heidelberg, Germany. 625 pp. (Edited Volume).",
+  },
+
+  {
+    authors: "Rilov G, Crooks J",
+    year: "2009",
+    title:
+      "Marine bioinvasions: conservation hazards and vehicles for ecological understanding. In: Biological Invasions in Marine Ecosystems: Ecological, Management, and Geographic Perspectives (Rilov G, Crooks JA, eds). Ecological Studies Series. Springer, Heidelberg, Germany. pp. 3–9.",
+  },
+
+  {
+    authors: "Rilov G",
+    year: "2009",
+    title:
+      "Predator-prey interactions in marine bioinvasions. In: Biological Invasions in Marine Ecosystems: Ecological, Management, and Geographic Perspectives (Rilov G, Crooks JA, eds). Ecological Studies Series. Springer, Heidelberg, Germany. pp. 261–286.",
+  },
+
+  {
+    authors: "Rilov G, Galil B",
+    year: "2009",
+    title:
+      "Marine bioinvasions in the Mediterranean Sea – history, distribution and ecology. In: Biological Invasions in Marine Ecosystems: Ecological, Management, and Geographic Perspectives (Rilov G, Crooks JA, eds). Ecological Studies Series. Springer, Heidelberg, Germany. pp. 549–576.",
+  },
+],
+
+
+
+
   };
   const sortedYears = Object.keys(publications).sort((a, b) => {
     if (a === "Open All") return -1;
