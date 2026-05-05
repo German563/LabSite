@@ -8,6 +8,7 @@ function OldMembers() {
   const [isPopupOpen, setPopupOpen] = useState(false);
   const [selectedPerson, setSelectedPerson] = useState(null);
 
+
   const toggleBackPopup = () => setBackPopupOpen((prev) => !prev);
 
   const openPopupWithPerson = (person) => {

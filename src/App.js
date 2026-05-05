@@ -33,6 +33,7 @@ import PureefyLogo from "./components/images/Pureefy/Pureef-y-400x355.png";
 import biodiversaLogo from "./components/images/reserves/biodiversa logo.png";
 import logoMain from "./components/images/logoMain.png";
 import IOLRlogo from "./components/images/oie_transparent.png";
+import ScrollToTop from "./components/ScrollToTop.js";
 import "./App.css";
 
 function AppContent() {
@@ -144,7 +145,7 @@ function AppContent() {
         display: 'flex'
       }}>
     <button
-      onClick={() => navigate("/formerstudents")}
+      onClick={() => navigate("/formerstudents#former-students")}
       style={{
         position: 'relative',
         margin: "auto",
@@ -323,6 +324,7 @@ function AppContent() {
 export default function App() {
   return (
     <Router>
+      <ScrollToTop />
       <AppContent />
     </Router>
   );
